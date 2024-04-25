@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users",
+  "info": {
+    "singularName": "user",
+    "pluralName": "users",
+    "displayName": "Users"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    }
+  }
+}

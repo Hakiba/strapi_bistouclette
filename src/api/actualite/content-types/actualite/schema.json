@@ -4,7 +4,8 @@
   "info": {
     "singularName": "actualite",
     "pluralName": "actualites",
-    "displayName": "Actualité"
+    "displayName": "Actualité",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,14 +20,21 @@
       "type": "richtext"
     },
     "Media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Block": {
+      "displayName": "Block Arcticle",
+      "type": "component",
+      "repeatable": true,
+      "component": "block-article.block-arcticle"
     }
   }
 }

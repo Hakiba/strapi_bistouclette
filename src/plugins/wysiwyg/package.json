@@ -1,0 +1,28 @@
+{
+  "name": "wysiwyg",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "wysiwyg",
+    "description": "Description of Wysiwyg plugin",
+    "kind": "plugin",
+    "displayName": "Wysiwyg"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.3.1",
+    "@ckeditor/ckeditor5-react": "^6.3.0"
+  }
+}
