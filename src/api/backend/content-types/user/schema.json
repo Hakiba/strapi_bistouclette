@@ -12,19 +12,24 @@
   },
   "attributes": {
     "username": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "prenom": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "nom": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "email": {
-      "type": "string"
+      "type": "string",
+      "configurable": false
     },
     "age": {
-      "type": "integer"
+      "type": "integer",
+      "configurable": false
     }
   }
 }
